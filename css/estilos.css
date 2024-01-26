@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+
+  font-family:titulo;
+src: url(titulo.ttf);
+
+}
+@font-face {
+
+  font-family:titulo2;
+src: url(titulo2.ttf);
+
+}
+
+
+body{
+    
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+video{
+    width: 100%;
+}
+
+.absolute{
+    width: 100%;
+    height: 100%;
+    top: 3rem;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+   
+}
+
+h1{
+    font-family: titulo;
+    width: 50%;
+    font-size: 80px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 10%; 
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 5px  #000;
+}
+
+h1 p{
+    
+    font-family: titulo2;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 0;
+    z-index:90;
+    color:#fff;
+    border: 1px 1px;
+    margin-top: 15%; 
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 5px  #000;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  background: rgb(251,251,252);
+background: linear-gradient(90deg, rgba(251,251,252,0.1741071428571429) 0%, rgba(12,12,13,0.3897934173669467) 40%, rgba(248,248,249,0.1741071428571429) 100%);}
+
+
+#cuerpo {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   text-align: center;
+   justify-content: center;
+
+
+}
+#cuerpo #seccion2 {
+
+    width: 80%;
+    height: 125%;
+   position: absolute;
+   text-align: center;
+   justify-content: center;
+   margin-left: 10%;
+   background: rgb(13,13,14);
+background: linear-gradient(90deg, rgba(13,13,14,0.1741071428571429) 0%, rgba(12,12,13,0.35898109243697474) 40%, rgba(8,8,8,0.10407913165266103) 100%);
+}
+
+#cuerpo #seccion2  h1{
+    font-family: titulo;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 5px  #000;
+
+}
+#cuerpo #seccion2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: -2px 5px 5px #000;
+    border: 20px 20px #000;
+}
+
+
+#cuerpo #fondoimg {
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#cuerpo #seccion2  h2 {
+    font-family: titulo;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: -3%;
+    text-shadow: 5px 5px 5px  #000;
+}
+#cuerpo #seccion2  h3 {
+    font-family: inherit;
+    width: 100%;
+    font-size:15px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 10%; 
+   
+    text-shadow: 5px 5px 5px  #000;
+}
+
+
+#cuerpo #seccion2 #calendario{
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: -0px 0px 0px #000;
+    border: 20px 20px #000;
+   background: rgb(252,249,249);
+background: linear-gradient(90deg, rgba(252,249,249,0.7567401960784313) 0%, rgba(250,250,251,0.8883928571428571) 40%, rgba(252,252,252,0.7679446778711485) 100%);
+    margin: 20px;
+}
+
+
+
+
+
+
+#cuerpo #seccion3 {
+
+    width: 80%;
+    height: 110%;
+   position: absolute;
+   text-align: center;
+   justify-content: center;
+   margin-left: 10%;
+    background: rgb(5,5,5);
+background: linear-gradient(90deg, rgba(5,5,5,0.8183648459383753) 0%, rgba(1,1,6,0.8939950980392157) 40%, rgba(9,9,9,0.8099614845938375) 100%);
+
+}
+#cuerpo #seccion3 .contenedor {
+    display: flex;
+
+}
+#cuerpo #seccion3 .contenedor  div {
+    margin-left: 0%;
+    
+}
+#cuerpo #seccion3  h1{
+    font-family: titulo;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 5px  #000;
+
+}
+
+
+
+#cuerpo #seccion3  h2 {
+    font-family: titulo;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: -3%;
+    text-shadow: 5px 5px 5px  #000;
+}
+
+#cuerpo #seccion3  h3 {
+    font-family: inherit;
+    width: 100%;
+    font-size:15px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 10%; 
+    text-shadow: 5px 5px 5px  #000;
+}
+
+
+#cuerpo #seccion3 #calendario{
+
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: -0px 0px 0px #000;
+    border: 20px 20px #000;
+   background: rgb(252,249,249);
+background: linear-gradient(90deg, rgba(252,249,249,0.7567401960784313) 0%, rgba(250,250,251,0.8883928571428571) 40%, rgba(252,252,252,0.7679446778711485) 100%);
+    margin: 20px;
+}
+
+
+
+//** RESPONSIVE**//
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    h1{
+        width: 50%;
+         margin-top: 5%; 
+        font-size: 40px;
+    }
+    h1 p{
+    
+    font-family: titulo2;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 0;
+    z-index:90;
+    color:#fff;
+    border: 1px 1px;
+    margin-top: 1%; 
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 5px  #000;
+}
+
+#cuerpo #seccion2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    background-size: cover;
+}
+#cuerpo #seccion2 {
+
+    width: 80%;
+    height: 80%;
+   position: absolute;
+   text-align: center;
+   justify-content: center;
+   margin-left: 10%;
+   background: rgb(13,13,14);
+background: linear-gradient(90deg, rgba(13,13,14,0.1741071428571429) 0%, rgba(12,12,13,0.35898109243697474) 40%, rgba(8,8,8,0.10407913165266103) 100%);
+}
+
+#cuerpo #fondoimg {
+    height: 100%;
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+
+
+#cuerpo #seccion2  h1{
+    font-family: titulo;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 5px  #000;
+
+}
+#cuerpo #seccion2  h2{
+    font-family: titulo;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 5px  #000;
+
+}
+#cuerpo #seccion2 #calendario{
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5%;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: -0px 0px 0px #000;
+    border: 20px 20px #000;
+   background: rgb(252,249,249);
+background: linear-gradient(90deg, rgba(252,249,249,0.7567401960784313) 0%, rgba(250,250,251,0.8883928571428571) 40%, rgba(252,252,252,0.7679446778711485) 100%);
+    margin: 20px;
+}
+#cuerpo #seccion3  h1{
+    font-family: titulo;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 5px  #000;
+
+}
+#cuerpo #seccion3  h2 {
+    font-family: titulo;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: -3%;
+    text-shadow: 5px 5px 5px  #000;
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+    h1{
+        width: 60%;
+         margin-top: 5%; 
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    h1::after{
+        display: none;
+    }
+    h1 p{
+    
+    font-family: titulo2;
+    width: 100%;
+    font-size: 8px;
+    font-weight: 0;
+    z-index:90;
+    color:#fff;
+    border: 1px 1px;
+    margin-top: 1%; 
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 5px  #000;
+}
+#cuerpo #seccion2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    background-size: cover;
+}
+#cuerpo #seccion2 {
+
+    width: 80%;
+    height: 70%;
+    top: -5px;
+   position: absolute;
+   text-align: center;
+   justify-content: center;
+   margin-left: 10%;
+   background: rgb(13,13,14);
+background: linear-gradient(90deg, rgba(13,13,14,0.1741071428571429) 0%, rgba(12,12,13,0.35898109243697474) 40%, rgba(8,8,8,0.10407913165266103) 100%);
+}
+
+#cuerpo #fondoimg {
+    height: 70%;
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#cuerpo #seccion2  h1{
+    font-family: titulo;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 5px  #000;
+
+}
+#cuerpo #seccion2  h2{
+    font-family: titulo;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 5px  #000;
+
+}
+
+#cuerpo #seccion2  h3 {
+    font-family: inherit;
+    width: 100%;
+    font-size:10px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 10%; 
+   
+    text-shadow: 5px 5px 5px  #000;
+}
+#cuerpo #seccion2 #calendario{
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5%;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: -0px 0px 0px #000;
+    border: 20px 20px #000;
+   background: rgb(252,249,249);
+background: linear-gradient(90deg, rgba(252,249,249,0.7567401960784313) 0%, rgba(250,250,251,0.8883928571428571) 40%, rgba(252,252,252,0.7679446778711485) 100%);
+    margin: 20px;
+}
+#cuerpo #seccion3  h1{
+    font-family: titulo;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 5px  #000;
+
+}
+#cuerpo #seccion3  h2 {
+    font-family: arial;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-top: 2%; 
+    margin-bottom: -3%;
+    text-shadow: 5px 5px 5px  #000;
+}
+#cuerpo #seccion3 .contenedor  div {
+    margin-left: 6%;
+    
+}
+
+#cuerpo #seccion3 {
+
+    width: 80%;
+    height: 43%;
+    background: rgb(5,5,5);
+background: linear-gradient(90deg, rgba(5,5,5,0.8183648459383753) 0%, rgba(1,1,6,0.8939950980392157) 40%, rgba(9,9,9,0.8099614845938375) 100%);}
+
+
+
+}
